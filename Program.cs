@@ -13,8 +13,8 @@ namespace IOd
         {
             Console.WriteLine("Please type in some text");
             string text = Console.ReadLine();
-            File.WriteAllText(@"C:\Users\Ryan\Desktop\Coding", text);
-            string textr = File.ReadAllText(@"C:\Users\Ryan\Desktop\Coding\ some.txt");
+            File.WriteAllText(@"C:\Users\Ryan\Desktop\Coding\some.txt", text);
+            string textr = File.ReadAllText(@"C:\Users\Ryan\Desktop\Coding\some.txt");
             Console.WriteLine(textr);
             Console.ReadLine();
         }
